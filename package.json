@@ -2,7 +2,10 @@
   "name": "klango-ui",
   "version": "0.0.1",
   "description": "A simple UI library for my solid-js projects",
-  "author": { "name": "Júnior Nascimento", "email": "junior.nascm@gmail.com"},
+  "author": {
+    "name": "Júnior Nascimento",
+    "email": "junior.nascm@gmail.com"
+  },
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -13,6 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@catppuccin/tailwindcss": "^0.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",

@@ -1,8 +1,18 @@
-import type { Component } from 'solid-js';
+import {Component} from 'solid-js';
+
+import {store} from '@src/store';
+
+import Storybook from '@pages/Storybook';
 
 const App: Component = () => {
+  const state = store;
+
   return (
-    <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
+    <div class={state.theme}>
+      <div class="bg-gradient-to-b from-base to-crust h-screen w-full m-auto">
+        <Storybook/>
+      </div>
+    </div>
   );
 };
 
